@@ -8,6 +8,7 @@ body{
     font-family: 'Russo One';
     margin: 0;
     
+    
 }
 
 
@@ -32,19 +33,18 @@ header{
     font-size: 50px;
     text-align: center;
 }
-.products{
-    background-color: #E7BF00;
-}
+
 
 .cart span{
     border-radius: 5px; 
-    border: 5px solid #AB8D00;
+    border: 5px solid #AB8D50;
     background: #D0AC00;
     text-decoration: none;
     color:black;
     font-size: 30px;
+    cursor: pointer;
+    
 }
-
 
 
 
@@ -70,12 +70,13 @@ body {
 .product {
     background-color: #ff6c00;
     border-radius: 8px;
+    border-width: 10px;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     flex: 1 1 calc(25% - 20px);
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    box-shadow: inset 0px 15px 22px 0px rgba(150,102,46,1);
+    
 }
 
 .product img {
@@ -86,7 +87,7 @@ body {
 .product p {
     margin: 10px 0;
     color: #ffffff;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .product .price {
@@ -95,9 +96,9 @@ body {
 
 button {
     font-family: 'Russo One';
-    background-color: #ff0000;
-    color: #ffffff;
-    border: none;
+    background-color: #D9D9D9;
+    color: #000000;
+    
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
@@ -105,7 +106,7 @@ button {
 }
 
 button:hover {
-    background-color: #cc0000;
+    background-color: #B0AEAE;
 }
 
 .about {
@@ -147,11 +148,15 @@ footer {
     background-color: #FFD700; /* Жовтий колір фону */
     text-align: center;
     padding: 20px;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
   }
   
   .footer-container {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .coordinates {
@@ -163,7 +168,52 @@ footer {
     font-weight: bold;
   }
   
-  img {
-    width: 100px;
-    height: 100px;
-  }
+  /*img {
+    width: 168px;
+    height: 233px;
+  }*/
+
+.about-content img{
+    width: 469px;
+    height: 378px;
+}
+
+/* .cart:hover{
+    background-color: ;
+} */
+
+
+.df{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    gap: 15px;
+}
+
+.df{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.product1{
+    background-color: #ff6c00;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align:center;
+    width: 80%;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.df2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
