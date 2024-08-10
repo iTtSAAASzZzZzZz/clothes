@@ -13,7 +13,10 @@ body{
 
 
 header{
-    background-color: #E7BF00;
+    /*background-color: #E7BF00;*/
+    background: url(photos/hfbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,16 +39,39 @@ header{
 
 
 .cart span{
-    border-radius: 5px; 
+    /*border-radius: 5px; 
     border: 5px solid #AB8D50;
     background: #D0AC00;
-    text-decoration: none;
+    
     color:black;
-    font-size: 30px;
+    font-size: 20px;
+    cursor: pointer;*/
+
+    border: 5px solid #7b2cbf;
+    padding: 0.3em;
+    border-radius: 10px;
     cursor: pointer;
+    color: #240046;
+    background: transparent;
     
 }
 
+
+.cart{
+    text-decoration: none;
+}
+.cart span:hover{
+    box-shadow: 0px 0px 5px 5px #3c096c;
+    transition: 0.3s all linear;
+    background-color:  rgb(157, 78, 221, 0.3);
+}
+
+main{
+    background: url(photos/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
 
 body {
@@ -68,7 +94,7 @@ body {
 }
 
 .product {
-    background-color: #ff6c00;
+    /*background-color: #ff6c00;*/
     border-radius: 8px;
     border-width: 10px;
     text-align: center;
@@ -76,6 +102,10 @@ body {
     flex: 1 1 calc(25% - 20px);
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: url(https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149020285.jpg?t=st=1713545186~exp=1713548786~hmac=f8e233a2a0c08d200cf4cec6f2a478166d93dd7b382bb1baca1e9758c8021152&w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
     
 }
 
@@ -94,27 +124,34 @@ body {
     color: #ffeb3b;
 }
 
-button {
+button {    
     font-family: 'Russo One';
-    background-color: #D9D9D9;
-    color: #000000;
-    
-    border-radius: 4px;
-    padding: 10px 20px;
+    border: 5px solid #7b2cbf;
+    padding: 0.3em;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    color: #240046;
+    background: transparent;
+    
 }
 
-button:hover {
-    background-color: #B0AEAE;
+button:hover{
+    box-shadow: 0px 0px 5px 5px #3c096c;
+    transition: 0.3s all linear;
+    background-color:  rgb(157, 78, 221, 0.3);
 }
+
 
 .about {
-    background-color: #ff6c00;
+   
     border-radius: 8px;
     margin-top: 20px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: url(https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149020285.jpg?t=st=1713545186~exp=1713548786~hmac=f8e233a2a0c08d200cf4cec6f2a478166d93dd7b382bb1baca1e9758c8021152&w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
 }
 
 .about h1 {
@@ -145,10 +182,13 @@ button:hover {
 }
 
 footer {
-    background-color: #FFD700; /* Жовтий колір фону */
+    /*background-color: #FFD700;  Жовтий колір фону */
     text-align: center;
     padding: 20px;
     box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
+    background: url(photos/hfbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .footer-container {
@@ -200,7 +240,7 @@ footer {
 }
 
 .product1{
-    background-color: #ff6c00;
+    /*background-color: #ff6c00;*/
     border-radius: 8px;
     margin-top: 20px;
     padding: 20px;
@@ -209,6 +249,10 @@ footer {
     width: 80%;
     color: #ffffff;
     margin: 0 auto;
+    background: url(https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149020285.jpg?t=st=1713545186~exp=1713548786~hmac=f8e233a2a0c08d200cf4cec6f2a478166d93dd7b382bb1baca1e9758c8021152&w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
 }
 
 .df2{
@@ -217,3 +261,4 @@ footer {
     align-items: center;
     gap: 30px;
 }
+
